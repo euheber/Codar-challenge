@@ -172,6 +172,10 @@ footer{
     text-align: center;
 }
 
+.footerLogo h1{
+  padding-bottom: 0.6rem;
+}
+
 .footer-info{
     margin-top: 1.5rem;
     width: 10rem;
@@ -194,6 +198,14 @@ gap: 2rem;
 
 @media screen and (min-width: 1024px){
 
+  .cta{
+    width: 18rem;
+  }
+
+  .cta-call{
+    width: 15rem;
+  }
+
   main{
     align-items: flex-start;
   }
@@ -206,7 +218,7 @@ gap: 2rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1rem 5rem;
+    padding: 1rem 9rem;
   }
 
   .cta-container{
@@ -232,8 +244,10 @@ gap: 2rem;
     align-items: center;
     justify-content: center;
     flex-direction:row-reverse;
-    gap: 16rem;
+    gap: 19rem;
   }
+
+  
 
   #input-box{
     margin-left: 8.2rem;
@@ -263,13 +277,24 @@ gap: 2rem;
 
   footer{
     display: flex;
-    align-items: center;
+   
     justify-content: center;
     gap: 4rem;
   }
 
   .footerLogo{
     text-align: left;
+}
+.footer-info{
+  width: 12rem;
+}
+
+.footer-info h3{
+  padding-bottom: 0.6rem;
+}
+
+.socials img{
+  width: 2rem;
 }
 
 }
