@@ -191,3 +191,85 @@ gap: 2rem;
 
 }
 /*Footer*/
+
+@media screen and (min-width: 1024px){
+
+  main{
+    align-items: flex-start;
+  }
+
+  img{
+    width: 40%;
+  }
+
+  header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 5rem;
+  }
+
+  .cta-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: start;
+
+  }
+
+  .cta-container p {
+    text-align: left;
+    font-size: 1.2rem;
+  }
+
+  .cta-container h1{
+    letter-spacing: 0;
+    font-size: 3rem;
+  }
+
+  .infos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:row-reverse;
+    gap: 16rem;
+  }
+
+  #input-box{
+    margin-left: 8.2rem;
+    margin-top: 2rem;
+  }
+
+  #input-box input{
+    margin-right: .8rem;
+  }
+
+  #input-box p{
+    font-weight: 700;
+    font-size: 1.2rem;
+  }
+
+  #feedbackBox{
+    display: flex;
+    width: 95%;
+    margin: 2rem auto;
+    gap: 1rem;
+
+  }
+
+  .feedback{
+    width: 50rem;
+  }
+
+  footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+  }
+
+  .footerLogo{
+    text-align: left;
+}
+
+}
