@@ -16,21 +16,21 @@ body {
   background-color: white;
 }
 
-.cta{
-    margin-top: 1rem;
-    width: 13rem;
-    height: 2.5rem;
-    background-color: red;
-    border: none;
-    border-radius: 7px;
-    color: white;
-    font-weight: 700;
-    transition: .5s;
+.cta {
+  margin-top: 1rem;
+  width: 13rem;
+  height: 2.5rem;
+  background-color: red;
+  border: none;
+  border-radius: 7px;
+  color: white;
+  font-weight: 700;
+  transition: 0.5s;
 }
 
-.cta:hover{
-    color: black;
-    cursor: pointer;
+.cta:hover {
+  color: black;
+  cursor: pointer;
 }
 
 /*Header*/
@@ -57,10 +57,10 @@ nav ul {
 }
 
 nav ul li {
-    font-size: 1.1rem;
+  font-size: 1.1rem;
   font-weight: 700;
   cursor: pointer;
-  transition: .5s;
+  transition: 0.5s;
 }
 
 nav ul li:hover {
@@ -84,155 +84,158 @@ main {
 }
 
 .cta-container h1 {
-    margin-top: 0;
-    letter-spacing: 0.1rem;
+  margin-top: 0;
+  letter-spacing: 0.1rem;
 }
 
 .cta-container {
   text-align: center;
 }
 
-.infos{
-    margin-top: 2.5rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-#info-list{
-    margin-top: 1.5rem;
-}
-#info-list span{
-    background-color: black;
-    border-radius: 1rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-right: 0.5rem;
-}
-#info-list li{
-   display: flex;
-   padding: 1rem 0 0 0rem;
-}
-
-input{
-    margin-top: 1rem;
-    width: 13rem;
-    height: 2.5rem;
-    border: none;
-    border-radius: 7px;
-    background-color: #e7e7e7;
-    padding-left: 1.3rem;
-}
-
-
-#feedbackBox{
-    width: 95%;
-    margin-top: 1rem;
-}
-
-.feedback{
-    display: flex;
-    background-color: #e7e7e7;
-    border-radius: 7px;
-    padding: 1rem;
-    margin-top: 1rem;
-}
-
-.profilePicture{
-    background-color: red;
-    width: 3rem;
-    height: 3rem;
-    margin-right: 1rem;
-    border-radius: 3rem;
-}
-
-.profileInfo{
-    flex: 1;
-}
-
-.profileInfo h3{
-    margin-top: 0.6rem;
-}
-
-#input-box{
-  margin-top: 2rem;
+.infos {
+  margin-top: 2.5rem;
   display: flex;
   flex-direction: column;
+  align-items: center;
+}
+
+#info-list {
+  margin-top: 1.5rem;
+}
+#info-list span {
+  background-color: black;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 0.5rem;
+}
+#info-list li {
+  display: flex;
+  padding: 1rem 0 0 0rem;
+}
+
+input {
+  margin-top: 1rem;
+  width: 13rem;
+  height: 2.5rem;
+  border: none;
+  border-radius: 7px;
+  background-color: #e7e7e7;
+  padding-left: 1.3rem;
+}
+
+#feedbackBox {
+  width: 95%;
+  margin-top: 1rem;
+}
+
+.feedback {
+  display: flex;
+  background-color: #e7e7e7;
+  border-radius: 7px;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+.profilePicture {
+  background-color: red;
+  width: 3rem;
+  height: 3rem;
+  margin-right: 1rem;
+  border-radius: 3rem;
+}
+
+.profileInfo {
+  flex: 1;
+}
+
+.profileInfo h3 {
+  margin-top: 0.6rem;
+}
+
+.input-box {
+ margin-top: 2rem;
+ text-align: center;
 }
 
 /*main*/
 
-
 /*Footer*/
 
-footer{
-    background-color: black;
-    color: white;
-    margin-top: 2rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+footer {
+  background-color: black;
+  color: white;
+  margin-top: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
-.footerLogo{
-    text-align: center;
+.footerLogo {
+  text-align: center;
 }
 
-.footerLogo h1{
+.footerLogo h3 {
   padding-bottom: 0.6rem;
+  font-size: 2rem;
 }
 
-.footer-info{
-    margin-top: 1.5rem;
-    width: 10rem;
-    margin-left: 2rem;
+.footer-info {
+  margin-top: 1.5rem;
+  width: 11rem;
+  text-align: center;
 }
 
-.footer-info h3{
-    padding-bottom: 0.6rem;
+.footer-info h3 {
+  padding-bottom: 0.6rem;
+  text-align: center;
+  margin-bottom: 0.7rem;
 }
 
-.socials{
-display: flex;
-gap: 2rem;
+.socials {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
 }
-.socials img{
-    width: 3rem;
-
+.socials img {
+  width: 3rem;
 }
 /*Footer*/
 
-@media screen and (min-width: 1024px){
-
-  .cta{
+@media screen and (min-width: 1024px) {
+  .cta {
     width: 18rem;
   }
 
-  .cta-call{
+  .cta-call {
     width: 15rem;
   }
 
-  main{
+  main {
     align-items: flex-start;
   }
 
-  img{
+  img {
     width: 40%;
   }
 
-  header{
+  header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 1rem 9rem;
   }
 
-  .cta-container{
+  .cta-container {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     text-align: start;
-
   }
 
   .cta-container p {
@@ -240,67 +243,63 @@ gap: 2rem;
     font-size: 1.2rem;
   }
 
-  .cta-container h1{
+  .cta-container h1 {
     letter-spacing: 0;
     font-size: 3rem;
   }
 
-  .infos{
+  .infos {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction:row-reverse;
+    flex-direction: row-reverse;
     gap: 19rem;
   }
 
-  
-
-  #input-box{
+  .input-box {
     margin-left: 10.1rem;
     margin-top: 2rem;
   }
 
-  #input-box input{
-    margin-right: .8rem;
+  .input-box input {
+    margin-right: 0.8rem;
   }
 
-  #input-box p{
+  .input-box p {
     font-weight: 700;
     font-size: 1.2rem;
+    text-align: left;
   }
 
-  #feedbackBox{
+  #feedbackBox {
     display: flex;
     width: 95%;
     margin: 2rem auto;
     gap: 1rem;
-
   }
 
-  .feedback{
+  .feedback {
     width: 50rem;
   }
 
-  footer{
+  footer {
     display: flex;
-   
+    align-items: initial;
     justify-content: center;
+    flex-direction: row;
     gap: 4rem;
   }
 
-  .footerLogo{
-    text-align: left;
-}
-.footer-info{
-  width: 12rem;
-}
+  .footer-info {
+    width: 12rem;
+    margin-bottom: 0;
+  }
 
-.footer-info h3{
-  padding-bottom: 0.6rem;
-}
+  .footerLogo h3 {
+    font-size: 2rem;
+  }
 
-.socials img{
-  width: 2rem;
-}
-
+  .socials img {
+    width: 2rem;
+  }
 }
